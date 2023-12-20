@@ -1,0 +1,10 @@
+FROM gcc:latest
+
+WORKDIR /app
+COPY server.c /app
+COPY cliente.c /app
+
+RUN gcc -o server server.c
+RUN gcc -o cliente cliente.c
+
+CMD ["./server"]
