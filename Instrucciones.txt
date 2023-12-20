@@ -1,0 +1,12 @@
+Pasos para ejecutar el proyecto de SO de forma adecuada
+
+1. Descargar los archivos cliente.c y server.c del repositorio de GitHub
+2. realizar la compilacion de la siguiente forma:
+   gcc cliente.c -o *nombre_cliente
+   gcc server.c -o *nombre_servidor
+3. Ejecutar el archivo compilado de server.c en una terminal con el siguiente comando ./*nombre_servidor
+4. Abrir otra terminal y ejecutar el compilado del archivo cliente.c con el siguiente comando ./*nombre_cliente
+5. En este punto ya puede empezar a ejecutar comandos y analizar el comando que envia el cliente y el que recibe el servidor
+
+
+Nota: recuerde cambiar *nombre_cliente y *nombre_servidor con los nombres decididos por usted.
